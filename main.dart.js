@@ -9921,7 +9921,7 @@ HV:function HV(){},
 Wp:function Wp(a,b){this.a=a
 this.b=b},
 aqO:function(a){var s=null,r=a.a
-switch(r){case"/home":r.toString
+switch(r){case"/":r.toString
 return Z.a80(new X.AZ(s),r)
 case"/searchMarker":r.toString
 return Z.a80(new S.Fx(s),r)
@@ -51562,7 +51562,7 @@ F.a5Z.prototype={
 $0:function(){return new R.n3(new N.bA(null,t.Fs))},
 $S:340}
 F.BD.prototype={
-L:function(a,b){return new S.rc($.Nz().$1$0(t.wb).a,"/home",Z.ari(),new F.Tv(),H.a([C.B7,C.Bf,C.Bj,C.Bc],t.eu),H.a([C.Lg,C.Li],t.as),!1,null)}}
+L:function(a,b){return new S.rc($.Nz().$1$0(t.wb).a,"/",Z.ari(),new F.Tv(),H.a([C.B7,C.Bf,C.Bj,C.Bc],t.eu),H.a([C.Lg,C.Li],t.as),!1,null)}}
 F.Tv.prototype={
 $2:function(a,b){b.toString
 return new D.oj(b,null)},
