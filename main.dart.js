@@ -35823,7 +35823,7 @@ $R:0,
 $S:34}
 E.qc.prototype={
 R:function(a,b){var s=null,r=E.nA(!1,L.bi("Versuchsdurchf\xfchrung",s,s,s,s,s,s)),q=T.dp(s,8,s),p=F.aqs(C.o,1)
-return new F.i8(M.mr(r,T.dU(B.uw(H.a([new O.fB("Sie erhalten im Experiment Rechen-\naufgaben, die schon gel\xf6st worden sind (siehe Beispielaufgabe). Sie sollen entscheiden, ob die Aufgaben richtig oder falsch gel\xf6st worden sind. Das tun Sie, indem Sie so schnell wie m\xf6glich einen der beiden Buttons antippen. Insgesamt werden Sie 100 Aufgaben bewerten.",s),q,M.tc(s,U.ahh("images/trial_example_green_red.jpg"),s,new S.eq(s,s,p,s,s,s,C.ai),s,s,s,s),L.bi("Beispielaufgabe",s,s,s,s,C.bs,s),T.dp(s,24,s),T.dU(new O.m9("/trialRoute",!0,s),s,s)],t.F),C.dG),s,s)),new E.a3x(),s)}}
+return new F.i8(M.mr(r,T.dU(B.uw(H.a([new O.fB("Sie erhalten im Experiment Rechen-\naufgaben, die schon gel\xf6st worden sind (siehe Beispielaufgabe). Sie sollen entscheiden, ob die Aufgaben richtig oder falsch gel\xf6st worden sind. Das tun Sie, indem Sie so schnell wie m\xf6glich einen der beiden Buttons antippen. Insgesamt werden Sie 100 Aufgaben bewerten.",s),q,M.tc(s,U.ahh("assets/images/trial_example_green_red.jpg"),s,new S.eq(s,s,p,s,s,s,C.ai),s,s,s,s),L.bi("Beispielaufgabe",s,s,s,s,C.bs,s),T.dp(s,24,s),T.dU(new O.m9("/trialRoute",!0,s),s,s)],t.F),C.dG),s,s)),new E.a3x(),s)}}
 E.a3x.prototype={
 $0:function(){var s=0,r=P.a5(t.y),q
 var $async$$0=P.a1(function(a,b){if(a===1)return P.a2(b,r)
@@ -35902,7 +35902,7 @@ $C:"$0",
 $R:0,
 $S:34}
 Z.QB.prototype={
-$3:function(a,b,c){return U.ahh("images/ishihara_"+b.gJT()+".jpg")},
+$3:function(a,b,c){return U.ahh("assets/images/ishihara_"+b.gJT()+".jpg")},
 $C:"$3",
 $R:3,
 $S:184}
