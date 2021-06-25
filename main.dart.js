@@ -13079,13 +13079,11 @@ while(true)switch(s){case 0:s=2
 return P.aa(P.azQ(),$async$ace)
 case 2:q=$.acF()
 p=H.a(["42","3","lines"],t.s)
-o=new P.mW()
 $.rE()
-p=new A.e3(q,p,o,new P.b8(t.V))
+p=new A.e3(q,p,new P.mW(),new P.b8(t.V))
 p.xF()
-o.kb(0)
-o=window.navigator.userAgent
-q=U.uj("assets/images/trial_example_blue.jpg")
+q=window.navigator.userAgent
+o=U.uj("assets/images/trial_example_blue.jpg")
 n=U.uj("assets/images/ishihara_42.jpg")
 m=U.uj("assets/images/ishihara_3.jpg")
 l=U.uj("assets/images/ishihara_lines.jpg")
@@ -13096,7 +13094,7 @@ h=P.bd(7,null,!1,t.JI)
 g=t.S
 f=t.j1
 new N.HX(null,k,!0,new P.aF(new P.Y(j,t.W),t.Q),!1,null,!1,!1,null,null,null,!1,0,!1,null,null,new N.N8(P.aS(t.M)),null,null,i,null,N.ayn(),new Y.Dh(N.aym(),h,t.G7),!1,0,P.w(g,t.h1),P.b7(g),H.a([],f),H.a([],f),null,!1,C.bJ,!0,!1,null,C.y,C.y,null,0,null,!1,P.iX(null,t.qL),new O.YG(P.w(g,t.rr),P.w(t.Ld,t.iD)),new D.U7(P.w(g,t.cK)),new G.YJ(),P.w(g,t.Fn),null,!1,C.pa).SN()}k=$.D
-k.Og(new F.Ec(p,o.toLowerCase(),q,n,m,l,null))
+k.Og(new F.Ec(p,q.toLowerCase(),o,n,m,l,null))
 k.C6()
 return P.a0(null,r)}})
 return P.a1($async$ace,r)}},X={Dx:function Dx(a,b){this.c=a
@@ -36434,6 +36432,8 @@ $S:3}
 A.e3.prototype={
 xF:function(){var s=this,r=s.r
 s.f=s.c[r]
+if(r===0)s.db.kb(0)
+r=s.r
 if(r<3)s.r=r+1
 s.a_()},
 qy:function(a){var s,r,q,p,o,n,m,l=this,k=l.r-1
