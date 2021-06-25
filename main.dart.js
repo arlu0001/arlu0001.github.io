@@ -36030,8 +36030,8 @@ $R:0,
 $S:24}
 K.VM.prototype={
 $0:function(){var s=this.a
-K.XP(s,"/ishiharaTest",t.X)
-Y.bR(s,!1,t.U).db.kb(0)},
+Y.bR(s,!1,t.U).db.kb(0)
+K.XP(s,"/ishiharaTest",t.X)},
 $S:0}
 E.ql.prototype={
 M:function(a,b){var s=null,r="Bild: Beispielaufgabe",q=E.jW(!1,L.b5("Versuchsdurchf\xfchrung",s,s,s,s,s,s)),p=T.dm(s,8,s),o=L.b5(r,s,s,s,s,C.b0,s),n=F.ars(C.p,1),m=t.F
